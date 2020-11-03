@@ -135,3 +135,19 @@ export const HourText = styled.Text<HourTextProps>`
   color: ${props => (props.selected ? '#232119' : '#e3ebe8')};
   font-family: 'RobotoSlab-Regular';
 `;
+
+export const CreateAppointmentButton = styled(RectButton)`
+  height: 50px;
+  background: #ff9000;
+  border-radius: 10px;
+  align-items: center;
+
+  justify-content: center;
+  margin: 0 24px 24px;
+`;
+
+export const CreateAppointmentButtonText = styled.Text`
+  font-family: 'RobotoSlab-Medium';
+  font-size: 18px;
+  color: #232129;
+`;
